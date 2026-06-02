@@ -1,0 +1,11 @@
+[package]
+name = "free-probability"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/SuperInstance/free-probability"
+description = "Free probability theory in Rust — free convolution, R-transform, free entropy, random matrices. The only Rust crate for free probability."
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+nalgebra = "0.33"
